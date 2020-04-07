@@ -14,7 +14,7 @@
 限制：
 1 <= k < s.length <= 10000
 
- */
+*/
 
 import java.util.Arrays;
 
@@ -32,3 +32,10 @@ class Solution {
         return String.valueOf(chars);
     }
 }
+/*
+class Solution {
+    public String reverseLeftWords(String s, int n) {
+        return s.substring(n)+s.substring(0,n);
+    }
+}
+*/
